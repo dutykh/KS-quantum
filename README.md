@@ -1,13 +1,22 @@
 # Quasinormal modes of the Kazakov–Solodukhin quantum-corrected black hole — a spectral analysis
 
 This repository contains the data, symbolic worksheets, and numerical code that accompany
-the manuscript
+the paper
 
 > **Quasinormal modes of the Kazakov–Solodukhin quantum-corrected black hole: a spectral analysis**
 > Davide Batic, Denys Dutykh, and Mark Essa Sukaiti
 > *Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates*
+> **Eur. Phys. J. C 86, 847 (2026)** — [doi:10.1140/epjc/s10052-026-16102-3](https://doi.org/10.1140/epjc/s10052-026-16102-3)
+> ([open the article](https://link.springer.com/article/10.1140/epjc/s10052-026-16102-3))
 
-A copy of the paper is included here: [`pdf/QNM_Kazakov_Solodukhin_quantum_corrected_black_hole.pdf`](pdf/QNM_Kazakov_Solodukhin_quantum_corrected_black_hole.pdf).
+Received 7 June 2026 · Accepted 7 July 2026 · Published 21 July 2026.
+
+Two PDFs are included here:
+
+- [`pdf/DB-DD-MS-QNMs-KS-Quantum-EPJC-2026.pdf`](pdf/DB-DD-MS-QNMs-KS-Quantum-EPJC-2026.pdf) — the
+  **published version of record** (Eur. Phys. J. C **86**, 847);
+- [`pdf/QNM_Kazakov_Solodukhin_quantum_corrected_black_hole.pdf`](pdf/QNM_Kazakov_Solodukhin_quantum_corrected_black_hole.pdf) —
+  the **preprint** version of the manuscript.
 
 We compute the quasinormal-mode (QNM) spectrum of the **Kazakov–Solodukhin quantum-corrected
 (KSQC) black hole** with a high-precision **Chebyshev spectral method**. After factoring out the
@@ -121,7 +130,8 @@ while the oscillatory spectra remain sector-dependent.
 ```
 KS-quantum/
 ├── pdf/
-│   └── QNM_Kazakov_Solodukhin_quantum_corrected_black_hole.pdf   # the manuscript
+│   ├── DB-DD-MS-QNMs-KS-Quantum-EPJC-2026.pdf                    # published paper (EPJC 86, 847)
+│   └── QNM_Kazakov_Solodukhin_quantum_corrected_black_hole.pdf   # preprint version
 │
 ├── maple/                                  # symbolic matrix assembly & derivations (Maple)
 │   ├── Matrix_Assembler_all_s_0_s_1_KS-Final Version.mw   # assembles M0/M1/M2 (scalar & EM)
@@ -300,8 +310,24 @@ For each run the solver writes, into `KS_OUT_DIR`:
 If you use this code or data, please cite the accompanying paper:
 
 > D. Batic, D. Dutykh, and M. E. Sukaiti, *Quasinormal modes of the Kazakov–Solodukhin
-> quantum-corrected black hole: a spectral analysis* (2026).
-> *Journal / arXiv / DOI: to be added upon publication.*
+> quantum-corrected black hole: a spectral analysis*, **Eur. Phys. J. C 86, 847 (2026)**.
+> DOI: [10.1140/epjc/s10052-026-16102-3](https://doi.org/10.1140/epjc/s10052-026-16102-3)
+
+BibTeX:
+
+```bibtex
+@article{Batic2026KSQNM,
+  author  = {Batic, Davide and Dutykh, Denys and Sukaiti, Mark Essa},
+  title   = {Quasinormal modes of the {Kazakov}--{Solodukhin} quantum-corrected
+             black hole: a spectral analysis},
+  journal = {The European Physical Journal C},
+  volume  = {86},
+  pages   = {847},
+  year    = {2026},
+  doi     = {10.1140/epjc/s10052-026-16102-3},
+  url     = {https://doi.org/10.1140/epjc/s10052-026-16102-3}
+}
+```
 
 ---
 
