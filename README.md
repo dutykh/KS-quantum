@@ -1,5 +1,14 @@
 # Quasinormal modes of the Kazakov–Solodukhin quantum-corrected black hole — a spectral analysis
 
+[![Eur. Phys. J. C](https://img.shields.io/badge/Eur.%20Phys.%20J.%20C-86%20%282026%29%20847-005a9c)](https://link.springer.com/article/10.1140/epjc/s10052-026-16102-3)
+[![DOI](https://img.shields.io/badge/DOI-10.1140%2Fepjc%2Fs10052--026--16102--3-1a7f37)](https://doi.org/10.1140/epjc/s10052-026-16102-3)
+[![License: LGPL v2.1](https://img.shields.io/badge/License-LGPL%20v2.1-4c1)](LICENSE)
+[![Maple](https://img.shields.io/badge/Maple-200--digit%20assembly-ff6f00)](https://www.maplesoft.com/products/Maple/)
+[![Julia](https://img.shields.io/badge/Julia-GenericSchur%20BigFloat-9558b2)](https://julialang.org/)
+[![QNMs Hall of Fame](https://img.shields.io/badge/QNMs-Hall%20of%20Fame-8a2be2)](https://qnms.denys-dutykh.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-dutykh%2FKS--quantum-181717?logo=github)](https://github.com/dutykh/KS-quantum)
+[![Last commit](https://img.shields.io/github/last-commit/dutykh/KS-quantum)](https://github.com/dutykh/KS-quantum/commits/main)
+
 This repository contains the data, symbolic worksheets, and numerical code that accompany
 the paper
 
