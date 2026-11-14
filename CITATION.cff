@@ -1,0 +1,61 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+cff-version: 1.2.0
+message: "If you use these codes or data, please cite the article given under preferred-citation."
+title: "KS-quantum: quasinormal modes of the Kazakov–Solodukhin quantum-corrected black hole"
+type: software
+authors:
+  - family-names: Batic
+    given-names: Davide
+    affiliation: "Khalifa University of Science and Technology"
+    orcid: "https://orcid.org/0000-0002-7619-4900"
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Khalifa University of Science and Technology"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
+  - family-names: Sukaiti
+    given-names: Mark Essa
+    affiliation: "Khalifa University of Science and Technology"
+repository-code: "https://github.com/dutykh/KS-quantum"
+license: LGPL-2.1-only
+version: 1.0.0
+date-released: "2026-11-14"
+keywords:
+  - black-holes
+  - quasinormal-modes
+  - general-relativity
+  - quantum-gravity
+  - quantum-corrected-black-holes
+  - spectral-methods
+  - chebyshev-polynomials
+  - julia
+  - maple
+  - research-code
+  - supplementary-materials
+  - reproducible-research
+abstract: >-
+  Maple worksheets, a Julia solver and computed spectra for the quasinormal modes of the Kazakov–Solodukhin
+  quantum-corrected black hole, in the minimally and conformally coupled scalar sectors, the electromagnetic sector
+  and an axial effective-source Regge–Wheeler sector. The radial problem is reduced by a Chebyshev collocation to a
+  quadratic matrix pencil, assembled with 200 decimal digits and solved with 220 digits at three resolutions, and only
+  the roots on which the three resolutions agree are kept; 141 tables of modes are included.
+preferred-citation:
+  type: article
+  title: 'Quasinormal Modes of the Kazakov–Solodukhin Quantum-Corrected Black Hole: A Spectral Analysis'
+  authors:
+  - family-names: Batic
+    given-names: Davide
+  - family-names: Dutykh
+    given-names: Denys
+  - family-names: Sukaiti
+    given-names: Mark Essa
+  journal: The European Physical Journal C
+  volume: 86
+  issue: '7'
+  start: 847
+  year: 2026
+  month: 7
+  doi: 10.1140/epjc/s10052-026-16102-3
+  identifiers:
+  - type: url
+    value: https://arxiv.org/abs/2607.19860
+    description: arXiv preprint
