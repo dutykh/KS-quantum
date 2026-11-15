@@ -153,11 +153,9 @@ for 𝔞 = 1.25 and `a0` for the Schwarzschild black hole. Its header repeats th
 its columns give the running index `k`, the average `Re(avg)` and `Im(avg)` of the matched roots with 16 decimals, the
 three distances `err12`, `err23`, `err13` between the roots at N = 190, 195 and 200, and the largest of them `maxerr`.
 Oscillatory modes come in pairs ±Re Ω, and purely imaginary roots have `Re(avg)` equal to 0. The solver also writes
-each table at full precision (`_full_precision`), but these files are not stored here. One name disagrees with its
-content: `reports/s2-axial/s2_L3_aK0_9.txt` holds the axial ℓ = 3 modes at a_K = 0.99 (its header gives the tag 14036,
-that is 𝔞 = 14.036, and its first modes 0.1210 − 0.0336i and 0.0995 − 0.1055i are those of Table 33 of the article at
-a_K = 0.99). The tables also keep a few purely imaginary roots of modulus below 10⁻³, which pass the test through its
-absolute part of 10⁻⁴ only and are not listed by the article.
+each table at full precision (`_full_precision`), but these files are not stored here. The tables also keep a few
+purely imaginary roots of modulus below 10⁻³, which pass the test through its absolute part of 10⁻⁴ only and are not
+listed by the article.
 
 The three folders whose names begin with `200` or `400` hold a study of the scalar monopole (s = 0, ℓ = 0) under a
 change of precision and resolution. Their subfolders `data-0`, `data-5` and `data-10` are named after 10 α, with
